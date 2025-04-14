@@ -5,7 +5,7 @@ require('dotenv').config();
 const app = express();
 app.use(express.json());
 
-const FRESHDESK_DOMAIN = process.env.OPENAI_KEY;
+const FRESHDESK_DOMAIN = process.env.FRESHDESK_DOMAIN;
 const FRESHDESK_API_KEY = process.env.FRESHDESK_API_KEY;
 const OPENAI_KEY = process.env.OPENAI_KEY;
 
